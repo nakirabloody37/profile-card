@@ -3,15 +3,13 @@
 :root {
   /* sys COLORS */
   /*sys PRIMARY-COLORS*/
-  --red: #ea5353;
-  --cyan: #45d3d3;
-  --orange: #fcaf4a;
-  --blue: #549ef2;
+  --blue-600: hsl(185, 75%, 39%);
+  --navy-950: hsl(229, 23%, 23%);
+  --gray-500: hsl(227, 10%, 46%);
 
   /*sys NEUTRAL*/
 
-  --gray-500: #4c4e61;
-  --gray-400: #697077;
+  --gray-100: hsl(225, 10%, 92%);
 
   /* sys Font Sizes */
 
