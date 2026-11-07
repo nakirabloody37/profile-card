@@ -64,6 +64,9 @@ body {
   font-weight: 400;
   font-size: var(--text-4p2);
 
+  background:
+    url(images/bg-pattern-top.svg) -40% 460% no-repeat,
+    url(images/bg-pattern-bottom.svg) 135% -447% no-repeat;
   background-color: var(--blue-600);
 }
 
@@ -73,7 +76,7 @@ body {
   width: 100%;
   max-width: calc(360rem / 16);
   padding: var(--space-24) 0 var(--space-6);
-  box-shadow: 0 var(--space-4) var(--space-8) rgb(0, 0, 0, 0.1);
+  box-shadow: 0 var(--space-8) var(--space-16) rgb(0, 0, 0, 0.2);
   background:
     url(images/bg-pattern-card.svg) top / 100% 39% no-repeat,
     #fff;
