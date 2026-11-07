@@ -43,6 +43,9 @@
   --space-20: 5rem;
   --space-24: 6rem;
   --space-32: 8rem;
+
+  /* sys svg size */
+  --circle: 90vw; /* try 30vw to 50vw */
 }
 
 /*sec GENERAL */
@@ -64,10 +67,14 @@ body {
   font-weight: 400;
   font-size: var(--text-4p2);
 
-  background:
-    url(images/bg-pattern-top.svg) -40% 460% no-repeat,
-    url(images/bg-pattern-bottom.svg) 135% -447% no-repeat;
+  background-image:
+    url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: var(--circle) auto;
   background-color: var(--blue-600);
+  background-position:
+    left calc(var(--circle) / -2) top calc(var(--circle) / -2),
+    right calc(var(--circle) / -2) bottom calc(var(--circle) / -2);
 }
 
 /*sec PROFILE CARD */
